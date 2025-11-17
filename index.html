@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohan Pandey — CV</title>
+  <meta name="description" content="Resume / CV of Mohan Pandey: HTML, CSS, JS developer." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Home">MP</a>
+      <nav class="links" id="navLinks">
+        <a href="#summary">Summary</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="btn ghost" id="themeToggle" type="button" aria-label="Toggle theme">🌗</button>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <div>
+        <h1 class="title">MOHAN <span class="accent">PANDEY</span></h1>
+        <p class="subtitle">
+          <span id="roleRotator">HTML • CSS • JavaScript</span>
+        </p>
+        <div class="row gap">
+          <a href="#contact" class="btn">Hire Me</a>
+          <a href="#projects" class="btn ghost">See Projects ↓</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <ul class="quick">
+          <li>📞 <a href="tel:+917348792904">+91 73487 92904</a></li>
+          <li>✉️ <a href="mailto:mohanpandey1299@gmail.com">mohanpandey1299@gmail.com</a></li>
+          <li>📍 India (IST)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SUMMARY -->
+    <section id="summary" class="container section">
+      <h2 class="section-title reveal">Profile</h2>
+      <p class="muted reveal">
+        Entry-level web developer with strong fundamentals in <strong>HTML, CSS, and JavaScript</strong>.
+        I build clean, responsive UIs with good accessibility and performance. Looking for opportunities to
+        learn fast, contribute to real projects, and grow as a developer.
+      </p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="container section">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="card reveal">
+        <div class="edu">
+          <div>
+            <strong>Currently in Class 10th</strong>
+            <div class="muted">General Education</div>
+          </div>
+          <div class="muted">2025</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container section">
+      <h2 class="section-title reveal">Skills</h2>
+      <ul class="badge-list reveal">
+        <li class="badge">HTML</li>
+        <li class="badge">CSS</li>
+        <li class="badge">JavaScript</li>
+        <li class="badge outline">Responsive Design</li>
+        <li class="badge outline">Accessibility</li>
+        <li class="badge outline">Git/GitHub</li>
+      </ul>
+
+      <div class="skills-grid reveal">
+        <div class="skill">
+          <span>HTML</span>
+          <div class="meter"><span style="--w:92%"></span></div>
+        </div>
+        <div class="skill">
+          <span>CSS</span>
+          <div class="meter"><span style="--w:85%"></span></div>
+        </div>
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="meter"><span style="--w:75%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container section">
+      <h2 class="section-title reveal">Projects</h2>
+
+      <div class="projects reveal">
+        <article class="card card-project">
+          <div class="thumb">
+            <div class="sparkles" aria-hidden="true"></div>
+            <span class="thumb-label">Calculator</span>
+          </div>
+          <div class="card-body">
+            <h3>Calculator</h3>
+            <p class="muted">A animated, responsive calculator built with HTML, CSS, and JavaScript.</p>
+            <div class="row gap">
+              <a class="btn ghost" href="https://mohanpandeyy.github.io/CALCULATOR/
+" rel="stylesheet">Live Demo</a>
+              <a class="btn ghost" href="https://github.com/Mohanpandeyy/CALCULATOR.git" rel="stylesheet">Source</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- LANGUAGES & HOBBIES -->
+    <section class="container section">
+      <div class="two-col reveal">
+        <div>
+          <h2 class="section-title">Languages</h2>
+          <ul class="list">
+            <li>English</li>
+            <li>Hindi</li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="section-title">Hobbies</h2>
+          <ul class="list">
+            <li>Coding</li>
+            <li>Cricket</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact" class="container section">
+      <h2 class="section-title reveal">Contact</h2>
+      <form id="contactForm" class="card form reveal" novalidate>
+        <!-- Web3Forms -->
+        <input type="hidden" name="access_key" value="ba22037b-2fba-4ad2-86d4-63f6282a0e07" />
+        <input type="hidden" name="subject" value="New message from Mohan Pandey — CV site" />
+        <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off" />
+
+        <div class="field">
+          <label for="name">mohanpandey1299@gmail.com</label>
+          <label for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Say hello…" required></textarea>
+        </div>
+        <button class="btn" type="submit">Send Message</button>
+        <p id="formStatus" class="muted" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container row space-between">
+      <span>© <span id="year"></span> Mohan Pandey</span>
+      <span class="muted">Built with HTML • CSS • JS</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
